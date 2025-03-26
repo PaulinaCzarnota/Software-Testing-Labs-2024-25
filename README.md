@@ -113,3 +113,37 @@ Lab 5 focuses on White Box Testing techniques, with an emphasis on code coverage
 
 - **PyCharm or Visual Studio Code:** Code coverage analysis and test execution.
 - **Python unittest framework:** For unit testing.
+
+Here's the revised Lab 6 summary with both **PyCharm or VS Code** mentioned as tools, consistent with your earlier labs:
+
+### Lab 6: Debugging 
+
+Lab 6 focuses on practical debugging techniques and writing detailed defect reports for common coding issues. The lab includes analyzing and fixing bugs in multiple Python programs using breakpoints, call stacks, the debug console, and navigation tools in PyCharm or Visual Studio Code (VS Code). It emphasizes the process of identifying syntax, runtime, logic, and best practice errors.
+
+#### Key Topics Covered:
+
+- **Debugging Tools in PyCharm or VS Code:**  
+  - Setting breakpoints and using the call stack to trace function execution.  
+  - Using debug navigation tools (Step Over, Step Into, Step Into My Code, Step Out, Run to Cursor).  
+  - Modifying variables mid-execution via the debug console.
+
+- **Exercise 1 – Rabbit Hole Debugging:**  
+  - Explored call stack navigation, variable inspection, and code path manipulation.  
+  - Compared stepping into standard library code vs. user code.
+
+- **Exercise 2 – Grader Program:**  
+  - Identified and corrected 10 defects including syntax errors (e.g., unmatched parenthesis, missing colons), runtime errors (e.g., incorrect variable usage), and logic errors (e.g., improper comparisons).
+
+- **Exercise 3 – List Flattener:**  
+  - Diagnosed and resolved logic and best practice errors.  
+  - Added a missing return statement and avoided shadowing Python built-in names.
+
+- **Additional Files:**  
+  - **cheshire.py:** Utility module, correctly imported and used without requiring modification.  
+  - **wonderland.py:** Fixed formatting issue in message output and confirmed proper integration with `exercise1.py`.
+
+#### Technologies & Tools Used:
+
+- **PyCharm or Visual Studio Code (VS Code):** Breakpoint debugging, call stack inspection, variable console, and step controls.  
+- **Python unittest (implicitly tested):** Debugging outputs validated by corrected program execution.  
+- **Manual Defect Reporting:** Logged defect IDs, error types, and resolutions for each issue found.
