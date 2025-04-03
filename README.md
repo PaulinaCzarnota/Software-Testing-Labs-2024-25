@@ -147,3 +147,45 @@ Lab 6 focuses on practical debugging techniques and writing detailed defect repo
 - **PyCharm or Visual Studio Code (VS Code):** Breakpoint debugging, call stack inspection, variable console, and step controls.  
 - **Python unittest (implicitly tested):** Debugging outputs validated by corrected program execution.  
 - **Manual Defect Reporting:** Logged defect IDs, error types, and resolutions for each issue found.
+
+Here’s a complete Lab 7 summary for your GitHub `README.md`, matching the style of your previous lab summaries:
+
+### Lab 7: Think Aloud Protocol
+
+Lab 7 introduces the Think Aloud Protocol (TAP), a user testing method where participants verbalize their thoughts while completing specific tasks. This lab involved a usability test of the *Habitica* app to identify potential user experience issues in real time. Roles were divided among group members as moderator, tester, and scribe. The test consisted of three workflows, followed by SUS questionnaire scoring and personal reflections.
+
+#### Workflows & Observations:
+
+- **Workflow 1: Create a New Task**
+  - The tester expected a large “+” icon on the home page but the "New Task" button was under a less intuitive "Tasks" tab.
+  - Confusion arose due to unclear task types: "To-Dos", "Dailies", and "Habits".
+  - Once in the correct section, the interface was easy to use.
+
+- **Workflow 2: Join a Party (Social Feature)**
+  - The tester accidentally dismissed the invite and struggled to relocate the "Party" feature, expecting it under “Community” or “Groups”.
+  - Found terminology like "Party" misleading for a productivity app.
+
+- **Workflow 3: Customize Avatar**
+  - The tester enjoyed the process but expected avatar customization under “Profile”, not “Avatar”.
+  - Almost exited without saving due to the hidden placement of the "Save" button.
+
+#### Reflections:
+
+- **Moderator’s Reflection:**
+  - Emphasized the difficulty of staying neutral while guiding the session.
+  - TAP provided immediate insight into usability issues, especially due to unintuitive terminology.
+
+- **Scribe’s Reflection:**
+  - Observed that confusion stemmed from users’ expectations based on other apps.
+  - TAP helped reveal *why* users struggled, not just *where* they struggled.
+  - Suggested using clearer labels and more visible buttons.
+
+#### SUS (System Usability Scale) Score:
+
+- The tester completed a SUS questionnaire, scoring the app **80/100**, indicating good usability despite some confusing terms and hidden features.
+
+#### Technologies & Methods Used:
+
+- **Think Aloud Protocol (TAP):** Real-time verbalization of thoughts while navigating the interface.  
+- **System Usability Scale (SUS):** Standardized usability evaluation questionnaire.  
+- **Manual Note-taking:** For capturing user quotes and issues during the test.
